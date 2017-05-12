@@ -1,0 +1,15 @@
+region: us-west-1
+
+function_name: placeOrder_lambda_function
+handler: service.handler
+role: pizzashop-role
+description: place order
+
+# if access key and secret are left blank, boto will use the credentials
+# defined in the [default] section of ~/.aws/credentials.
+aws_access_key_id: AKIAJBEWN6VODC7M4QDA
+aws_secret_access_key: 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
+
+# dist_directory: dist
+# timeout: 15
+# memory_size: 512
